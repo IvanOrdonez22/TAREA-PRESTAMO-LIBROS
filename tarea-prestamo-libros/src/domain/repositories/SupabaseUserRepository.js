@@ -7,11 +7,11 @@ export class SupabaseUserRepository extends UserRepository {
   }
 
   save(user) {
-    console.log("💾 Guardando en Supabase:", user.toDto());
+    console.log("Guardando en Supabase:", user.toDto());
   }
 
   findById(id) {
-    console.log("🔍 Buscando en Supabase con id:", id);
+    console.log(" Buscando en Supabase con id:", id);
     return null;
   }
 }
